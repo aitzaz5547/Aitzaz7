@@ -717,4 +717,5 @@ try:
 except requests.exceptions.ConnectionError:
         print('\n No internet connection ...')
         exit()
-except Except
+except  Exception as e:pass
+menu()
